@@ -1,0 +1,14 @@
+# 站台設定與帳密
+.env
+.impeccable/
+
+# 爬蟲產物：截圖與頁面資料含個資，不進版控（npm run crawl 重新產生）
+public/screens/
+crawl/
+
+# 套件與建置輸出
+node_modules/
+dist/
+
+# LLM 產物
+func-map.yaml
